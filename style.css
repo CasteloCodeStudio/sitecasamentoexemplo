@@ -97,3 +97,34 @@ hr{
     top: 81%;
     left: 61%;
 }
+
+.menu{
+    display: flex;
+    position: absolute;
+    top: 2%;
+    left: 60%;
+}
+
+
+.presentes{
+    width: 40%;
+    height: auto;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f2ece2;
+    font-size: 20px;
+    position: absolute;
+    border-radius: 20px;
+    top: 6%;
+    left: 60%;
+}
+
+h3{
+    margin: 10px 0 ;
+}
+
+.presentes.open{
+    display: flex;
+}
